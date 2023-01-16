@@ -28,7 +28,7 @@ function createGallery() {
     galleryImg.alt = image.description;
     galleryLink.append(galleryImg);
 
-    galleryElements += galleryItem.innerHTML;
+    galleryElements += galleryItem.outerHTML;
   });
 
   gallery.insertAdjacentHTML("beforeend", galleryElements);
