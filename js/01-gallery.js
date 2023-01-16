@@ -17,7 +17,7 @@ function createGallery() {
     galleryItem.classList.add("gallery__item");
 
     const galleryLink = document.createElement("a");
-    galleryLink.classList.add("gallety__link");
+    galleryLink.classList.add("gallery__link");
     galleryLink.href = image.original;
     galleryItem.append(galleryLink);
 
